@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+/*Limpando todas as configurações predefinidas do navegador*/
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+
+
+header{
+	width: 1600px;
+	height: 60px;
+	background-color: #63B4BC;
+	margin-right: auto;
+	margin-left: auto;
+}
+header div#header-logo{
+	width: calc(100% /3);
+	font-family: roboto, sans-serif;
+	font-size: 20px;
+	float: left;
+	margin-top: 16px;
+	margin-left: 5px;
+}
+
+nav{
+	width: calc(2 * (100% /3));
+	margin-left: 533.33px;
+	
+}
+
+nav ul li.menu-itens{	
+	display: inline-block;
+	font-family: raleway, sans-serif;
+	font-size: bold;
+	font-size: 15px;
+	width: 100px;
+	text-align: center;
+	margin-top: 22px;
+}
+
+nav ul li.first-item{
+	margin-left: 600px;
+}
+
+
+nav ul li a.menu-links {
+	text-decoration: none;
+	color: #333333;
+	
+}
