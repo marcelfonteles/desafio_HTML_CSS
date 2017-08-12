@@ -10,7 +10,8 @@
 header{
 	width: 1600px;
 	height: 60px;
-	background-color: #63B4BC;
+	background-color: #FFFFFF;
+	/*background-color: #63B4BC;*/
 	margin-right: auto;
 	margin-left: auto;
 }
